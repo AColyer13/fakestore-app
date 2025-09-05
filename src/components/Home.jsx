@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
+  
   return (
     <Container className="py-5 d-flex flex-column align-items-center justify-content-center min-vh-100">
       <Row>

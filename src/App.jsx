@@ -11,7 +11,7 @@ function App() {
     <Router>
       <NavigationBar />
       <Routes>
-        <Route path="/components/home" element={<Home />} />
+        <Route path="/fakestore-app/" element={<Home />} />
         <Route path="/products" element={<ProductListing />} />
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/add-product" element={<AddProduct />} />
