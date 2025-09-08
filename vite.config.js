@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/fakestore-app/', // Set the base path for GitHub Pages deployment
+  base: '/', // Set the base path for GitHub Pages deployment
 })

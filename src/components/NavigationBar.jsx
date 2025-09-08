@@ -4,19 +4,19 @@ import { LinkContainer } from 'react-router-bootstrap';
 const NavigationBar = () => (
   <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect sticky="top">
     <Container>
-      <LinkContainer to="/fakestore-app">
+      <LinkContainer to="/">
         <Navbar.Brand>Sample Ecommerce Store</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="main-navbar-nav" />
       <Navbar.Collapse id="main-navbar-nav">
         <Nav className="ms-auto">
-          <LinkContainer to="/fakestore-app">
+          <LinkContainer to="/">
             <Nav.Link>Home</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/fakestore-app/products">
+          <LinkContainer to="/products">
             <Nav.Link>Product Listing</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/fakestore-app/add-product">
+          <LinkContainer to="/add-product">
             <Nav.Link>Add Product</Nav.Link>
           </LinkContainer>
         </Nav>
