@@ -20,7 +20,7 @@ const Home = () => {
               <Button
                 variant="primary"
                 size="lg"
-                onClick={() => navigate("/products")}
+                onClick={() => navigate("/fakestore-app/products")}
               >
                 View Products
               </Button>
