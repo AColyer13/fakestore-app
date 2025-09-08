@@ -8,7 +8,7 @@ import Home from './components/Home'; // Importing Home component
 
 function App() {
   return (
-    <Router>
+    <Router basename="/fakestore-app">
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
